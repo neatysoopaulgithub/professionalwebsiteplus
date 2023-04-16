@@ -1,31 +1,7 @@
 import Head from 'next/head';
-import { useNavigate } from 'react-router';
-//import ReactDOM from 'react-dom/client';
-//import { BrowserRouter } from 'react-router-dom';
 
- 
-
-export default function Home() {
-  const navigate = useNavigate();
-  const handleClick = () => {
-    console.log('Redirecting');
-    navigate('/news');
-}
-
-return (
-  <div className="hero min-h-screen bg-base-200">
-  <div className="hero-content flex-col lg:flex-row-reverse">
-    <img src="/images/stock/photo-1635805737707-575885ab0820.jpg" className="max-w-sm rounded-lg shadow-2xl" />
-    <div>
-      <h1 className="text-5xl text-blue-800 font-bold">Box Office News!</h1>
-      <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-      <button className="btn btn-primary" onClick={() => navigate("/news")}>Get Started</button>
-    </div>
-  </div>
-</div>
-);
+export default function News() {
   return (
-    
     <div>
       <Head>
         <title>Create Next App</title>
@@ -132,9 +108,16 @@ return (
 </header>
 
 
-
-
-
+<div className="hero min-h-screen bg-base-200">
+  <div className="hero-content flex-col lg:flex-row-reverse">
+    <img src="/images/stock/photo-1635805737707-575885ab0820.jpg" className="max-w-sm rounded-lg shadow-2xl" />
+    <div>
+      <h1 className="text-5xl text-blue-800 font-bold">Box Office News!</h1>
+      <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+      <button className="btn btn-primary">Get Started</button>
+    </div>
+  </div>
+</div>
 
 <section className="dark:bg-gray-800 dark:text-gray-100">
 	<div className="container px-6 py-12 mx-auto">
