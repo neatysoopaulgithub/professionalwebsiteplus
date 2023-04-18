@@ -1,3 +1,5 @@
+const colors = require('tailwindcss/colors')
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -5,28 +7,30 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx}',
     './app/**/*.{js,ts,jsx,tsx}',
   ],
+
+  
   daisyui: {
     themes: [
       {
         mytheme: {
         
-"primary": "#4B6BFB",
+"primary": "#c0d9f7",
         
-"secondary": "#7B92B2",
+"secondary": "#dffca1",
         
-"accent": "#67CBA0",
+"accent": "#88d651",
         
-"neutral": "#181A2A",
+"neutral": "#1F2138",
         
-"base-100": "#FFFFFF",
+"base-100": "#F8F6F8",
         
-"info": "#3ABFF8",
+"info": "#43A6DF",
         
-"success": "#36D399",
+"success": "#29B380",
         
-"warning": "#FBBD23",
+"warning": "#6d28d9",
         
-"error": "#F87272",
+"error": "#EE1153",
         },
       },
     ],
