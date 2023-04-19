@@ -11,7 +11,7 @@ export default function Home() {
       <Head>
         <title>Create Next App</title>
       </Head>
-      <header aria-label="Site Header" className="bg-white">
+      <header aria-label="Site Header" className="bg-yellow-200">
   <div
     className="mx-auto flex h-16 max-w-screen-xl items-center gap-8 px-4 sm:px-6 lg:px-8"
   >
@@ -74,7 +74,7 @@ export default function Home() {
       <div className="flex items-center gap-4">
         <div className="sm:flex sm:gap-4">
           <a
-            className="block rounded-md bg-teal-600 px-5 py-2.5 text-sm font-medium text-white transition hover:bg-teal-700"
+            className="block rounded-md bg-orange-300 px-5 py-2.5 text-sm font-medium text-white transition hover:bg-teal-700"
             href="/"
           >
             Login
@@ -115,20 +115,20 @@ export default function Home() {
 
 
 
-<div className="hero min-h-screen bg-base-200">
+<div className="hero min-h-screen bg-orange-300">
   <div className="hero-content flex-col lg:flex-row-reverse">
     <img src="/images/stock/photo-1635805737707-575885ab0820.jpg" className="max-w-sm rounded-lg shadow-2xl" />
     <div>
-      <h1 className="text-5xl text-blue-800 font-bold">Box Office News!</h1>
+      <h1 className="text-5xl text-teal-700 font-bold">Box Office News!</h1>
       <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-      <Link href="/news"><button className="btn btn-primary">Get Started</button></Link>
+      <Link href="/news"><button className="btn bg-yellow-200 text-white transition hover:bg-teal-700">Get Started</button></Link>
     </div>
   </div>
 </div>
 
 
 
-<section className="dark:bg-gray-800 dark:text-gray-100">
+<section className="dark:bg-violet-900 dark:text-gray-100">
 	<div className="container px-6 py-12 mx-auto">
 		<div className="grid items-center gap-4 xl:grid-cols-5">
 			<div className="max-w-2xl mx-auto my-8 space-y-4 text-center xl:col-span-2 xl:text-left">
@@ -187,7 +187,7 @@ export default function Home() {
 	</div>
 </section>
 
-<section className="dark:bg-gray-800 dark:text-gray-100">
+<section className="dark:bg-blue-900 dark:text-gray-100">
 	<div className="container flex flex-col justify-center px-4 py-8 mx-auto md:p-8">
 		<h2 className="mb-12 text-4xl font-bold leading-none text-center sm:text-5xl">Frequently Asked Questions</h2>
 		<div className="divide-y divide-gray-700">
