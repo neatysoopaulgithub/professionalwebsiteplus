@@ -1,3 +1,8 @@
+A professional website created with Next JS, Hyper UI and Anime JS with chat functionality.
+
+Video demo: https://photos.app.goo.gl/Y2umZqodmteonvG4A
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
