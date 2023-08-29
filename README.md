@@ -1,4 +1,6 @@
-A professional website created with Next JS, Hyper UI and Anime JS with chat functionality.
+A simple professional Next JS UI website using Hyper UI.
+
+Anime JS version available.
 
 Video demo: https://photos.app.goo.gl/Y2umZqodmteonvG4A
 (Quality on Google Photos is not consistent. Please try refreshing the page if that is an issue)
